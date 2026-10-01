@@ -1,5 +1,4 @@
 import { fullAddress, mapsUrl, site } from "@/lib/site";
-import { Placeholder } from "./Placeholder";
 
 export function LocationBlock() {
   return (
@@ -27,9 +26,6 @@ export function LocationBlock() {
           {site.inPersonConfirmed
             ? "In-person consultations are available; please book ahead."
             : "If you’d like to meet in person, contact us first so we can confirm what’s possible."}
-        </p>
-        <p className="mt-4 text-sm text-muted">
-          Opening hours: {site.openingHours ?? <Placeholder>To be confirmed</Placeholder>}
         </p>
       </div>
     </div>

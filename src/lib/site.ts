@@ -35,7 +35,6 @@ export const site = {
   phone: "+91 90942 24474" as string | null,
   whatsapp: "919094224474" as string | null, // digits only, with country code
   email: "ask.srdacademy@gmail.com" as string | null,
-  openingHours: null as string | null, // e.g. "Mon–Sat, 10 am – 7 pm"
   inPersonConfirmed: false, // set true only once in-person classes/consultations are confirmed
   social: {
     instagram: null as string | null,

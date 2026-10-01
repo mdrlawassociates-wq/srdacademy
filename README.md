@@ -15,7 +15,7 @@ npm run dev
 
 | What | File |
 | --- | --- |
-| Address, phone, email, hours, socials, in-person flag | `src/lib/site.ts` |
+| Address, phone, email, socials, in-person flag | `src/lib/site.ts` |
 | IELTS / TOEFL / PTE page content | `src/lib/tests.ts` |
 | Home-page FAQs | `src/lib/faqs.ts` |
 | Blog articles and categories | `src/lib/posts.ts` |

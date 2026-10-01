@@ -63,10 +63,6 @@ export function Footer() {
                 <dt className="text-sm text-paper/60">Email</dt>
                 <dd>{site.email ? <a href={`mailto:${site.email}`}>{site.email}</a> : <Placeholder>Email to be added</Placeholder>}</dd>
               </div>
-              <div>
-                <dt className="text-sm text-paper/60">Hours</dt>
-                <dd>{site.openingHours ?? <Placeholder>Hours to be confirmed</Placeholder>}</dd>
-              </div>
             </dl>
             {socials.length > 0 && (
               <ul className="mt-5 flex flex-wrap gap-4">
