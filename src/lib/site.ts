@@ -41,7 +41,7 @@ export const site = {
     instagram: null as string | null,
     facebook: null as string | null,
     youtube: null as string | null,
-    linkedin: null as string | null,
+    linkedin: "https://www.linkedin.com/company/srd-academy" as string | null,
   },
 } as const;
 
