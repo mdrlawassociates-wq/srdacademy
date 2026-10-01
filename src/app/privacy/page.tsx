@@ -31,35 +31,35 @@ export default function Privacy() {
           </p>
 
           <h2>What we collect</h2>
-          <p>When you send an enquiry, we collect the details you choose to give us:</p>
-          <ul>
-            <li>your name</li>
-            <li>your phone number and/or email address</li>
-            <li>the service you’re interested in and, if given, your preferred class format</li>
-            <li>anything you write in the message box</li>
-          </ul>
           <p>
-            We don’t ask for sensitive information through this website, and we ask that you don’t include documents,
-            identity numbers or financial details in the form.
+            This website does not collect or store the details you type into the enquiry form. When you use it, your
+            phone opens WhatsApp with a message containing what you entered: your name, the service you’re interested
+            in, your preferred class format if given, and any note you add. Nothing is sent until you press send in
+            WhatsApp.
+          </p>
+          <p>
+            If you message, call or email us, we receive your name, phone number or email address, and whatever you
+            choose to tell us. Please don’t send documents, identity numbers or financial details unless we ask for
+            them for a specific purpose.
           </p>
 
           <h2>How we use it</h2>
           <p>
-            Only to reply to your enquiry and talk to you about the courses or guidance you asked about. We do not sell
-            your information.
+            Only to reply to you and talk about the courses or guidance you asked about. We do not sell your
+            information.
           </p>
 
           <h2>Who handles it</h2>
           <p>
-            Enquiries are delivered to us by email using a third-party email delivery service{" "}
-            <Placeholder>name of provider, e.g. Resend, once confirmed</Placeholder>, and the website is hosted by{" "}
-            <Placeholder>hosting provider, e.g. Vercel, once confirmed</Placeholder>. Links to Google Maps take you to a
-            Google service, which has its own privacy policy.
+            Messages sent by WhatsApp go through WhatsApp, a service run by Meta, and email goes through our email
+            provider (Google Gmail). Each has its own privacy policy. The website is hosted by Vercel. Links to Google
+            Maps take you to a Google service.
           </p>
 
           <h2>How long we keep it</h2>
           <p>
-            <Placeholder>Retention period to be confirmed by SRD Academy</Placeholder>. After that, enquiry details are deleted.
+            We keep enquiry messages only as long as needed to respond and follow up, and for{" "}
+            <Placeholder>retention period to be confirmed by SRD Academy</Placeholder> at most. After that, we delete them.
           </p>
 
           <h2>Your choices</h2>

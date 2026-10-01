@@ -1,4 +1,4 @@
-// Shared between the server action and the form UI.
+// Options for the WhatsApp enquiry form.
 export const interestOptions = [
   { value: "ielts", label: "IELTS" },
   { value: "toefl", label: "TOEFL" },
@@ -14,20 +14,3 @@ export const formatOptions = [
 ] as const;
 
 export type Interest = (typeof interestOptions)[number]["value"];
-
-export type EnquiryValues = {
-  name: string;
-  phone: string;
-  email: string;
-  interest: string;
-  format: string;
-  message: string;
-  consent: boolean;
-};
-
-export type EnquiryState =
-  | { status: "idle" }
-  | { status: "invalid"; errors: Partial<Record<keyof EnquiryValues | "contact", string>>; values: EnquiryValues }
-  | { status: "sent"; name: string }
-  | { status: "not-connected"; values: EnquiryValues }
-  | { status: "failed"; values: EnquiryValues };

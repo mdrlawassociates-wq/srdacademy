@@ -9,7 +9,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: { absolute: "Contact SRD Academy – Anna Nagar West, Chennai" },
   description:
-    "Contact SRD Academy in Anna Nagar West, Chennai, to book a free consultation about online IELTS, TOEFL or PTE classes or study-abroad guidance.",
+    "Contact SRD Academy, Anna Nagar West, Chennai, on WhatsApp, phone or email to book a free consultation about online IELTS, TOEFL or PTE classes or study-abroad guidance.",
   alternates: { canonical: "/contact" },
   openGraph: { url: "/contact" },
 };
@@ -21,13 +21,13 @@ export default function Contact() {
       <PageHeader
         crumbs={[{ href: "/contact", label: "Contact" }]}
         title="Book a free consultation"
-        intro="Send us a short enquiry and we’ll get back to you. Classes and consultations are mostly online, so you can talk to us from wherever you are."
+        intro="Message us on WhatsApp, call or email. Classes and consultations are mostly online, so you can talk to us from wherever you are."
       />
 
       <section className="py-12 sm:py-20">
         <Container className="grid gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-16">
           <div id="enquire" className="scroll-mt-24">
-            <EnquiryForm heading="Send an enquiry" tone="card" />
+            <EnquiryForm heading="Message us on WhatsApp" tone="card" />
           </div>
 
           <aside aria-labelledby="direct-title" className="space-y-8">
